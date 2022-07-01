@@ -11,7 +11,8 @@ export class RecipeListComponent implements OnInit {
   //Recipe is basically coming from the recipe.model.ts
   recipes: Recipe[] = [
     //When we call the method like this we actually call the constructor
-    new Recipe('A Test Recipe', 'A description for a test recipe', 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/6/10/0/FNM070117_Warm-Farro-Salad-with-Charred-Corn_s4x3.jpg.rend.hgtvcom.406.271.suffix/1497141547192.jpeg') 
+    new Recipe('A Test Recipe', 'A description for a test recipe', 'https://static.independent.co.uk/2022/04/25/10/iStock-1307275916.jpg?quality=50&width=640&auto=webp'),
+    new Recipe('A Test Recipe', 'A description for a test recipe', 'https://static.independent.co.uk/2022/04/25/10/iStock-1307275916.jpg?quality=50&width=640&auto=webp') 
   ];
 
   constructor() { }
